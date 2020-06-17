@@ -1,0 +1,97 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.navbar .menu{
+    padding: 0px 0px;
+    margin: 0px 10px;
+}
+.navbar li a{
+    margin: 0px 0px;
+    padding: 0px 8px;
+    font-size: 0.8rem;
+}
+.navbar .logo img{
+    width: 68px ;
+    height: 40px;
+    padding: 2px 0px;
+}
+.navbar .name{
+    font-size: 1.2rem;
+}
+
+#home{
+    margin: 0px;
+    width: 100%;
+    height: 320px;
+}
+#home h1{
+    font-size: 1.8rem;
+}
+#home p{
+    width: 300px;
+    font-size: 0.8rem;
+}
+#home::before {
+    height: 423px;
+    width: 100%;
+}
+#services{
+    display: flex;
+    flex-direction: column;
+}
+#services .box{
+    width: 280px;
+    height: 250px;
+    font-size: 0.8rem;
+    padding: 10px;
+}
+#services #item1 img{
+    width: 70px;
+    height: 70px;
+}
+#services  #item2 img{
+    width: 90px;
+    height: 70px;
+}
+#services #item3 img{
+    width: 105px;
+    height: 70px;
+}
+.h-sec{
+    font-size: 1.5rem;
+    margin: 4px ;
+}
+.h-ter{
+    font-size: 1.1rem;
+}
+#clients{
+    height: 200px;
+}
+#clients::before{
+    height: 200px;
+}
+#clients .logo{
+    width: 50px;
+    height: 50px;
+}
+#contact form{
+    height: 200px;
+}#contact::before{
+    height: 200px;
+}
+#contact input{
+    font-size: 0.8rem;
+    width: 180px;
+    height: 18px;
+    margin: 2px ;
+}
+#contact p{
+    margin: 5px;
+    font-size: 0.6rem;
+}
+footer{
+    font-size: 0.8rem;
+    height: 15px;
+}
